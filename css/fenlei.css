@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    background-color: #fff;
+}
+
+.nav {
+    width: 1400px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+}
+
+.nav a {
+    float: left;
+}
+
+.nav a img {
+    margin-top: 14px;
+    width: 105px;
+    height: 29px;
+}
+
+.nav .zuo-nav {
+    float: left;
+    margin-left: 20px;
+}
+
+.nav .zuo-nav>li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    padding: 0 18px;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav .zuo-nav li .chu {
+    font-weight: 800;
+}
+
+.nav ul li a:hover {
+    color: #f00;
+}
+
+.nav .you-nav {
+    width: 250px;
+    height: 60px;
+    float: right;
+}
+
+.nav .you-nav li a {
+    margin: 0 0 0 10px;
+    padding: 0 7px;
+}
+
+.nav .you-nav li {
+    float: left;
+}
+
+.nav .you-nav li:nth-child(1) a {
+    display: block;
+    margin: 2px 0;
+}
+
+.nav .you-nav li:nth-child(1) a img {
+    height: 24px;
+    width: 70px;
+}
+
+.nav .you-nav li:nth-child(2) a .iconfont {
+    font-size: 22px;
+}
+
+
+/* banner部分 */
+
+#banner {
+    width: 1140px;
+    margin: 25px auto 0;
+}
+
+#banner .box1 {
+    height: 330px;
+    width: 1140px;
+    overflow: hidden;
+}
+
+#banner .box1 .bo {
+    height: 660px;
+    cursor: pointer;
+    animation: move 5s steps(2) infinite;
+}
+
+#banner .box1 .bo:hover {
+    animation-play-state: paused;
+}
+
+#banner .box1 .bo .tu {
+    width: 1140px;
+    height: 330px;
+    float: left;
+}
+
+#banner .box1 .bo .tu .img {
+    width: 850px;
+    float: left;
+    overflow: hidden;
+}
+
+#banner .box1 .bo .tu .img img {
+    width: 100%;
+    transition: all .4s;
+}
+
+#banner .box1 .bo .tu .img img:hover {
+    transform: scale(1.1);
+}
+
+#banner .box1 .bo .tu .right {
+    width: 250px;
+    height: 290px;
+    padding: 20px;
+    float: left;
+    background-color: #fff;
+}
+
+#banner .box1 .right h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#banner .box1 .right p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-top: 30px;
+}
+
+#banner .box1 .right a {
+    padding: 3px 4px;
+    display: inline-block;
+    margin-top: 80px;
+    font-size: 12px;
+    color: #e74b3b;
+}
+
+#banner .box1 .right a:hover {
+    border-radius: 2px;
+    background-color: #e74b3b;
+    color: #fff;
+}
+
+@keyframes move {
+    0% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: -660px;
+    }
+}
+
+
+/* main-nav部分 */
+
+
+/* main-nav部分 */
+
+.hong:hover {
+    color: rgb(232, 100, 97);
+}
+
+.main-nav {
+    height: 190px;
+    border-radius: 10px;
+    line-height: 24px;
+    background-color: #fff;
+    margin-top: 25px;
+    padding: 18px 0 10px 20px;
+}
+
+.main-nav .fenlei {
+    height: 80px;
+    width: 1070px;
+    border-bottom: 1px solid #ccc;
+}
+
+.main-nav .nandu {
+    height: 40px;
+    margin-top: 20px;
+}
+
+.main-nav .leixing {
+    margin-top: 10px;
+    height: 80px;
+}
+
+.main-nav h3 {
+    float: left;
+    width: 88px;
+    height: 24px;
+    color: #999;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.main-nav span {
+    float: left;
+    width: 52px;
+    height: 24px;
+    text-align: center;
+    font-size: 12px;
+    margin-right: 16px;
+    margin-bottom: 8px;
+    background: rgb(253, 237, 235);
+    border-radius: 20px;
+    color: rgb(232, 100, 97);
+}
+
+.main-nav span:hover {
+    background-color: rgb(232, 100, 97);
+    color: #fff;
+}
+
+.main-nav ul {
+    float: left;
+    width: 914px;
+}
+
+.main-nav ul li {
+    float: left;
+    padding: 0 12px;
+    margin: 0 16px 8px 0;
+}
+
+.main-nav ul li a {
+    display: block;
+    color: rgb(104, 130, 140);
+    font-size: 14px;
+    color: #333;
+    height: 24px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.title {
+    height: 42px;
+    margin: 13px 0;
+}
+
+.title span {
+    float: left;
+    font-weight: 500;
+    line-height: 42px;
+    color: #555;
+    font-size: 20px;
+    letter-spacing: 6px;
+}
+
+.title:hover span {
+    cursor: pointer;
+    color: #e74b3b
+}
+
+#banner .list-box .list:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+#banner .list-box .list li {
+    width: 366px;
+    height: 296px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+#banner .list-box .list li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.list-box .list li .lis-tu {
+    width: 366px;
+    height: 188px;
+    overflow: hidden;
+}
+
+.list-box ul li .lis-tu img {
+    width: 100%;
+    transition: all .2s;
+}
+
+.list-box ul li .lis-tu img:hover {
+    transform: scale(1.1);
+}
+
+.list-box ul li .xia-zi {
+    width: 334px;
+    height: 70px;
+    padding: 16px;
+    background-color: #fff;
+}
+
+.list-box ul li .xia-zi .ming {
+    height: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.list-box ul li .xia-zi a {
+    font-weight: 600;
+    float: left;
+}
+
+.list-box ul li .xia-zi span {
+    float: right;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 2px;
+    padding: 0 3px;
+    background-color: rgb(232, 100, 97);
+}
+
+.list-box ul li .xia-zi p {
+    margin-top: 12px;
+    font-size: 13px;
+    color: #999;
+}
+
+
+/* bottom部分 */
+
+.bottom {
+    height: 321px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.bottom .bottom-n {
+    height: 321px;
+    width: 1140px;
+    margin: auto;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.bottom .bottom-n .b-left {
+    float: left;
+    height: 100%;
+    width: 545px;
+}
+
+.bottom .bottom-n .b-right {
+    float: left;
+    height: 100%;
+    width: 545px;
+    margin-top: 10px;
+}
+
+.bottom .bottom-n .b-left .b-logo {
+    width: 200px;
+    height: 60px;
+}
+
+.bottom .bottom-n .b-left .b-logo img {
+    display: block;
+    width: 206px;
+    margin-top: 50px;
+    height: 55px;
+}
+
+.bottom .bottom-n .b-left p {
+    margin: 18px 0 39px 0;
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 12px;
+    color: #999;
+}
+
+.bottom .bottom-n .b-right table {
+    width: 500px;
+    height: 221px;
+}
+
+.bottom .bottom-n .b-right td {
+    width: 500px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #999;
+    text-align: center;
+}

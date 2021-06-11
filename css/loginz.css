@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/login.jpg);
+    background-size: cover;
+}
+
+.logo {
+    height: 96px;
+    margin: 0 50px;
+    font-size: 26px;
+    color: #fff;
+}
+
+.logo div {
+    float: left;
+}
+
+.logo .zi {
+    margin: 25px 20px;
+}
+
+.logo a img {
+    margin: 25px 0;
+    width: 136px;
+}
+
+.main {
+    width: 360px;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+
+.main .title .tittu a img {
+    height: 32px;
+}
+
+.main .title p {
+    letter-spacing: 20px;
+    margin: 12px 0 20px 0;
+}
+
+.main .login {
+    height: 475px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.main .login .login-main {
+    padding: 30px;
+    height: 420px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main .login .login-main h4 {
+    color: #2B2B2B;
+    font-weight: 500;
+    margin: 10px 0 32px 0;
+}
+
+.main .login .login-main input {
+    position: relative;
+    width: 288px;
+    height: 40px;
+    border: 1px solid rgb(229, 229, 229);
+    margin-bottom: 12px;
+    border-radius: 2px;
+    padding-left: 10px;
+}
+
+.main .login .login-main input:hover {
+    border: 1px solid #ccc;
+}
+
+.main .login .login-main .yanz {
+    width: 190px;
+    float: left;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.main .login .login-main .yzm {
+    height: 40px;
+    width: 96px;
+    float: left;
+    color: #333;
+    border: 1px solid rgb(229, 229, 229);
+    border-left-width: 0;
+    line-height: 40px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.main .login .login-main .zhuce a {
+    display: block;
+    background-color: rgb(231, 75, 59);
+    line-height: 40px;
+    width: 300px;
+    height: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.main .login .login-main .zhuce a:hover {
+    background-color: rgba(255, 75, 59, .8);
+}
+
+.main .login .login-main span {
+    display: block;
+    font-size: 12px;
+    color: #9E9E9E;
+    margin-top: 25px;
+}
+
+.main .login a {
+    text-decoration: none;
+}
+
+.main .login .yiyou {
+    height: 51px;
+    background-color: rgb(250, 250, 250);
+    border-top: 1px solid #eee;
+    color: #9E9E9E;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.main .bottom {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+
+/* llllllll */
+
+.mimabox {
+    position: relative;
+}
+
+.eyes {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    background-color: #f00;
+    background: url("../images/by.png");
+    right: 7px;
+    top: 42px;
+    background-size: 24px 24px;
+}

@@ -1,0 +1,158 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    margin: auto;
+    background-color: rgb(244, 244, 244);
+}
+
+li {
+    list-style: none;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    height: 8%;
+    border-bottom: 1px solid #ccc;
+}
+
+#top a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px;
+}
+
+#top a:nth-child(3),
+#top>a:hover {
+    border-bottom: 2px solid #f00;
+    color: #f00;
+}
+
+#top a:hover {
+    color: #f00;
+}
+
+.banner img {
+    width: 600px;
+}
+
+.main {
+    width: 90%;
+    margin: auto;
+    height: 175px;
+}
+
+.main .yi,
+.main .er {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main a {
+    color: #333;
+    text-decoration: none;
+}
+
+.main a span {
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+    font-size: 35px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(170, 170, 170);
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.main a span:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.faxian .name,
+.faxian .tu .d1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.faxian .name h5 {
+    cursor: pointer;
+}
+
+.faxian .name h5:hover {
+    color: #f00;
+}
+
+.faxian .tu img {
+    width: 100%;
+    transition: all .7s;
+}
+
+.faxian .tu img:hover {
+    transform: scale(1.2);
+}
+
+.faxian .tu .tu1,
+.faxian .tu .tu2 {
+    width: 294px;
+    height: 176px;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.faxian .tu h4 {
+    position: absolute;
+    top: 18px;
+    left: 30px;
+    color: #fff;
+    z-index: 10;
+}
+
+.bottom {
+    width: 96%;
+    background-color: #fff;
+    padding: 0 17px;
+    margin: 20px -5px;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.bottom li {
+    padding-top: 5px;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bottom li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.bottom li:hover a {
+    color: #f00;
+}
+
+.bottom li a span {
+    font-size: 30px;
+}
+
+.bottom li a p {
+    display: block;
+    height: 20px;
+    margin: 2px 0;
+    text-align: center;
+}

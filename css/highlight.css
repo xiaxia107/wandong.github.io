@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    background-color: #fff;
+}
+
+.nav {
+    width: 1400px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+}
+
+.nav a img {
+    width: 93px;
+    height: 26px;
+    float: left;
+    margin-top: 16px;
+}
+
+.nav .zuo-nav {
+    float: left;
+    margin-left: 20px;
+}
+
+.nav .zuo-nav>li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    padding: 0 18px;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav .zuo-nav li .chu {
+    font-weight: 800;
+}
+
+.nav ul li a:hover {
+    color: #f00;
+}
+
+.nav .you-nav {
+    width: 250px;
+    height: 60px;
+    float: right;
+}
+
+.nav .you-nav li a {
+    margin: 0 0 0 10px;
+    padding: 0 7px;
+}
+
+.nav .you-nav li {
+    float: left;
+}
+
+.nav .you-nav li:nth-child(1) a {
+    display: block;
+    margin: 2px 0;
+}
+
+.nav .you-nav li:nth-child(1) a img {
+    height: 24px;
+    width: 70px;
+}
+
+.nav .you-nav li:nth-child(2) a .iconfont {
+    font-size: 22px;
+}
+
+.center {
+    height: 300px;
+    color: #fff;
+    background: url(../images/kuaihuo.jpg) no-repeat;
+    z-index: 10;
+    background-size: cover;
+}
+
+.center .lisnav {
+    padding-top: 48px;
+}
+
+.center .lisnav {
+    height: 36px;
+    width: 1140px;
+    margin: auto;
+}
+
+.center .lisnav .left {
+    float: left;
+}
+
+.center .lisnav .left a {
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.center .lisnav .right {
+    float: right;
+}
+
+.center .lisnav .right a {
+    padding: 10px 12px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+
+.center .lisnav .right a.hui {
+    background-color: #fff;
+    border-radius: 18px;
+    color: #333;
+}
+
+.center .lisnav .right a.hui:hover {
+    background-color: #ccc;
+}
+
+.center .lisnav a:hover {
+    color: #ccc;
+}
+
+.center h1 {
+    margin: 40px auto 25px;
+    width: 1140px;
+    font-size: 38px;
+}
+
+.center p {
+    width: 1140px;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+
+/* main部分 */
+
+.main>.xin {
+    width: 1140px;
+    margin: auto;
+}
+
+.kuai {
+    position: sticky;
+    top: 0;
+    width: 1140px;
+    height: 56px;
+    line-height: 56px;
+    margin: -30px auto 0;
+    background-color: #fff;
+}
+
+.kuai>ul {
+    height: 56px;
+}
+
+.kuai ul li.yi {
+    float: left;
+    position: relative;
+}
+
+.kuai ul li.yi a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    padding: 0 42px 0 24px;
+}
+
+.kuai ul li.yi .er {
+    text-align: center;
+    height: 0;
+    position: absolute;
+    overflow: hidden;
+    transition: all .3s;
+}
+
+.kuai ul li.yi:hover .er {
+    height: 280px;
+    box-shadow: 0 0 5px 1px #ccc;
+}
+
+.kuai ul li.yi .er li {
+    cursor: pointer;
+    background-color: #fff;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.kuai ul li.yi .er li:hover {
+    background-color: #ccc;
+}
+
+.main .xin>p {
+    padding: 16px 0 16px;
+    font-size: 14px;
+    color: #999;
+}
+
+.main .xin .ma-lis>ul>li {
+    width: 1140px;
+    height: 180px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.main .xin .ma-lis ul li .l {
+    width: 350px;
+    height: 130px;
+    float: left;
+    padding: 0 20px 0 0;
+}
+
+.main .xin .ma-lis ul li .l .tou {
+    width: 82px;
+    float: left;
+}
+
+.main .xin .ma-lis ul li .l .tou img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.main .xin .ma-lis ul .tou .main .xin .ma-lis ul li .r {
+    width: 718px;
+    height: 180px;
+    float: left;
+    background-color: wheat;
+}
+
+.main .xin .ma-lis ul li .l .tou span {
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    display: block;
+    margin: 15px auto 0;
+    text-align: center;
+    color: #2B2B2B;
+    border: 2px solid #E5E5E5;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.main .xin .ma-lis ul li .l .tou span:hover {
+    border: 2px solid #aaa;
+}
+
+.main .xin .ma-lis ul li .l .n {
+    width: 254px;
+    height: 130px;
+    margin-left: 10px;
+    float: left;
+}
+
+.main .xin .ma-lis ul li .l .n {
+    font-size: 14px;
+    color: #333;
+}
+
+.main .xin .ma-lis ul li .l .n h3 {
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.main .xin .ma-lis ul li .l .n span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #9e9e9e;
+}
+
+.main .xin .ma-lis ul li .l .n span.he {
+    margin-top: 10px;
+    display: block;
+}
+
+.main .xin .ma-lis ul li .r {
+    width: 718px;
+    height: 130px;
+    float: left;
+}
+
+.main .xin .ma-lis ul li .r a {
+    display: inline-block;
+    width: 234px;
+    height: 130px;
+    background-color: violet;
+    overflow: hidden;
+}
+
+.main .xin .ma-lis ul li .r a img {
+    width: 100%;
+    transition: all.2s;
+}
+
+.main .xin .ma-lis ul li .r a img:hover {
+    transform: scale(1.1);
+}
+
+
+/* bottom部分 */
+
+.bottom {
+    height: 321px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.bottom .bottom-n {
+    height: 321px;
+    width: 1140px;
+    margin: auto;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.bottom .bottom-n .b-left {
+    float: left;
+    height: 100%;
+    width: 545px;
+}
+
+.bottom .bottom-n .b-right {
+    float: left;
+    height: 100%;
+    width: 545px;
+    margin-top: 10px;
+}
+
+.bottom .bottom-n .b-left .b-logo {
+    width: 200px;
+    height: 60px;
+}
+
+.bottom .bottom-n .b-left .b-logo img {
+    display: block;
+    width: 206px;
+    margin-top: 50px;
+    height: 55px;
+}
+
+.bottom .bottom-n .b-left p {
+    margin: 18px 0 39px 0;
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 12px;
+    color: #999;
+}
+
+.bottom .bottom-n .b-right table {
+    width: 500px;
+    height: 221px;
+}
+
+.bottom .bottom-n .b-right td {
+    width: 500px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #999;
+    text-align: center;
+}

@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    background-color: #000;
+}
+
+.nav {
+    width: 1400px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+}
+
+.nav a img {
+    float: left;
+    margin-top: 14px;
+    width: 105px;
+    height: 29px;
+}
+
+.nav .zuo-nav {
+    float: left;
+    margin-left: 20px;
+}
+
+.nav .zuo-nav>li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    padding: 0 18px;
+    text-decoration: none;
+    color: #999;
+}
+
+.nav li a.qubu {
+    background-color: #e74b3b;
+    color: #fff;
+    height: 60px;
+}
+
+.nav ul li a:hover {
+    color: #fff;
+}
+
+.nav .you-nav {
+    width: 250px;
+    height: 50px;
+    float: right;
+}
+
+.nav .you-nav li a {
+    margin: 0 0 0 10px;
+    padding: 0 7px;
+}
+
+.nav .you-nav li {
+    float: left;
+}
+
+.nav .you-nav li:nth-child(1) a {
+    display: block;
+    margin: 2px 0;
+}
+
+.nav .you-nav li:nth-child(1) a img {
+    height: 24px;
+    width: 70px;
+}
+
+
+/* banner部分 */
+
+#banner {
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+
+/* main-nav部分 */
+
+.hong:hover {
+    color: rgb(232, 100, 97);
+}
+
+.title {
+    height: 64px;
+    line-height: 64px;
+    color: #333;
+    text-align: left;
+}
+
+.title span {
+    display: inline-block;
+    width: 52px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.title span.hot {
+    color: #fff;
+    background-color: rgb(51, 51, 51);
+    border-radius: 10px;
+}
+
+.title span.hot:hover {
+    color: rgb(232, 100, 97);
+}
+
+#banner .list-box .list:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+#banner .list-box .list li {
+    width: 212px;
+    float: left;
+    margin: 0 20px 20px 0;
+    position: relative;
+    cursor: pointer;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+#banner .list-box .list li:nth-child(5n) {
+    margin-right: 0;
+}
+
+.list-box .list li .shang {
+    width: 212px;
+    height: 321px;
+    position: absolute;
+    background-color: rgba(30, 31, 41, 0.2);
+    display: none;
+}
+
+.list-box .list li:hover .shang {
+    display: block;
+}
+
+.list-box .list li .shang a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    font-size: 20px;
+    background-color: rgb(236, 124, 122);
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+.list-box .list li .shang a:hover {
+    background-color: rgb(236, 70, 68);
+}
+
+.list-box .list li .lis-tu {
+    width: 212px;
+    height: 212px;
+    overflow: hidden;
+}
+
+.list-box ul li .lis-tu img {
+    width: 100%;
+}
+
+.list-box ul li .xia-zi {
+    padding: 17px 16px 16px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.list-box ul li .xia-zi .ming {
+    height: 40px;
+    line-height: 20px;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.list-box ul li .qian {
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff4038;
+}
+
+.list-box ul li .qian span {
+    font-size: 12px;
+    font-weight: 300;
+    color: 900;
+    margin-left: 4px;
+    color: #999;
+}
+
+.boxkuang {
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+}
+
+.boxkuang ul {
+    width: 2850px;
+    background-color: rgb(255, 255, 255);
+    height: 260px;
+    animation: lunbo 23s linear 0s infinite alternate;
+}
+
+.boxkuang ul:hover {
+    animation-play-state: paused;
+}
+
+.boxkuang li {
+    float: left;
+    margin: 0 25px 0 25px;
+}
+
+.boxkuang li:nth-child(2n+2) {
+    padding: 53px 0;
+    height: 153px;
+}
+
+.boxkuang li:nth-child(2n+1) {
+    padding: 30px 0;
+}
+
+.boxkuang li:first-child {
+    margin-left: 50px;
+}
+
+.boxkuang li:last-child {
+    margin-right: 50px;
+}
+
+.boxkuang li a {
+    display: block;
+    width: 150px;
+    height: 200px;
+    text-decoration: none;
+}
+
+.boxkuang li a p {
+    color: #333;
+    text-align: center;
+}
+
+.boxkuang li a img {
+    width: 150px;
+}
+
+@keyframes lunbo {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -1710px;
+    }
+}
+
+
+/* bottom部分 */
+
+.bottom {
+    height: 321px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.bottom .bottom-n {
+    height: 321px;
+    width: 1140px;
+    margin: auto;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.bottom .bottom-n .b-left {
+    float: left;
+    height: 100%;
+    width: 545px;
+}
+
+.bottom .bottom-n .b-right {
+    float: left;
+    height: 100%;
+    width: 545px;
+    margin-top: 10px;
+}
+
+.bottom .bottom-n .b-left .b-logo {
+    width: 200px;
+    height: 60px;
+}
+
+.bottom .bottom-n .b-left .b-logo img {
+    display: block;
+    width: 206px;
+    margin-top: 50px;
+    height: 55px;
+}
+
+.bottom .bottom-n .b-left p {
+    margin: 18px 0 39px 0;
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 12px;
+    color: #999;
+}
+
+.bottom .bottom-n .b-right table {
+    width: 500px;
+    height: 221px;
+}
+
+.bottom .bottom-n .b-right td {
+    width: 500px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #999;
+    text-align: center;
+}

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base target="-blank">
+    <link rel="short icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/flex.css">
+    <link rel="stylesheet" href="../css/swiper.css">
+    <title>手机端</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        #banner {
+            height: 278px;
+        }
+        
+        .swiper-container {
+            width: 100%;
+            height: 278px;
+        }
+        
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="top">
+        <div>
+            <a href="#">
+                <span class="iconfont">&#xe623;</span>
+            </a>
+        </div>
+
+        <a href="../index.html">pc端</a>
+        <a href="#">推荐</a>
+        <a href="#">关注</a>
+        <div>
+            <a href="#">
+                <span class="iconfont">&#xe6ad;</span>
+
+            </a>
+        </div>
+
+
+    </div>
+    <div id="banner">
+        <!-- <div class="container"></div> -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../images/zuopin1.jpg" width="100%;" height="278px"></div>
+                <div class="swiper-slide"><img src="../images/zuopin2.jpg" width="100%;" height="278px"></div>
+                <div class="swiper-slide"><img src="../images/zuopin3.jpg" width="100%;" height="278px"></div>
+                <div class="swiper-slide"><img src="../images/zuopin4.jpg" width="100%;" height="278px"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <div class="banner-nav-bg"></div>
+    </div>
+    <div class="main">
+        <div class="yi">
+            <a href="#">
+                <span class="iconfont">&#xe623;</span>
+            </a>
+            <a href="#">
+                <span class="iconfont">&#xe60a;</span>
+            </a>
+            <a href="#">
+                <span class="iconfont">&#xe609;</span>
+
+            </a>
+            <a href="#">
+                <span class="iconfont">&#xe614;</span>
+            </a>
+        </div>
+        <div class="er">
+            <a href="#">
+                <span class="iconfont">&#xe608;</span>
+            </a>
+            <a href="#">
+                <span class="iconfont">&#xe624;</span>
+            </a>
+            <a href="#">
+                <span class="iconfont">&#xe607;</span>
+            </a>
+            <a href="#">
+                <span class="iconfont">&#xe6d3;</span>
+            </a>
+        </div>
+
+
+
+    </div>
+    <div class="faxian">
+        <div class="name">
+            <h3>分类</h3>
+            <h5>其他 > &emsp;</h5>
+        </div>
+        <div class="tu">
+            <div class="d1">
+                <div class="tu1">
+                    <h4>电影</h4>
+                    <img src="../images/zuo2.jpg" alt="">
+                </div>
+
+
+                <div class="tu2">
+                    <h4>电视剧</h4>
+                    <img src="../images/zuo1.jpg" alt="">
+
+                </div>
+            </div>
+            <div class="d1 xia-d">
+                <div class="tu1">
+                    <h4>MV</h4>
+                    <img src="../images/zuo3.jpg" alt="">
+                </div>
+
+
+                <div class="tu2">
+                    <h4>动画</h4>
+                    <img src="../images/zuo4.jpg" alt="">
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <ul class="bottom">
+        <li>
+            <a href="#">
+                <span class="iconfont">&#xe60b;</span>
+                <p>首页</p>
+
+            </a>
+
+        </li>
+        <li>
+            <a href="#">
+                <span class="iconfont">&#xe62a;</span>
+                <p>发现</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="iconfont">&#xe6a1;</span>
+                <p>商城</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="iconfont">&#xe60c;</span>
+                <p>消息</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="iconfont">&#xe604;</span>
+                <p>我的</p>
+            </a>
+        </li>
+    </ul>
+    <script type="text/javascript" src="../js/swiper.js"></script>
+    <script type="text/javascript">
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            loop: true,
+            autoplay: 3000,
+
+
+            speed: 1000,
+            prevButton: '.swiper-button-prev',
+            nextButton: '.swiper-button-next',
+            effect: 'cube', //  effect: 'flip','coverflow','slide', 'fade','cube'
+            grabCursor: true,
+            cube: {
+                shadow: false,
+                slideShadows: false,
+                shadowOffset: 20,
+                shadowScale: 0.94
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base target="-blank">
+    <link rel="stylesheet" href="../css/icon.css">
+    <link rel="short icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/highlight.css">
+    <title>人气highlight</title>
+    <style>
+        .jing>p {
+            font-size: 25px;
+            height: 80px;
+            margin-top: 40px;
+            padding-left: 20px;
+            line-height: 60px;
+            background-color: #fff;
+            font-weight: 700;
+        }
+        
+        .jing ul {
+            height: 565px;
+        }
+        
+        .jing ul li {
+            float: left;
+            width: 228px;
+            position: relative;
+            transition: all .3s;
+        }
+        
+        .jing ul li img {
+            width: 100%;
+        }
+        
+        .jing ul li img.shang {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 232px;
+            z-index: 10;
+        }
+        
+        .jing ul li:hover {
+            transform: perspective(500px) translateZ(40px);
+            z-index: 100;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .jing ul li p {
+            font-size: 15px;
+            padding: 0 20px;
+            height: 52px;
+            overflow: hidden;
+            position: absolute;
+            left: 0;
+            bottom: 25px;
+            z-index: 100;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav">
+            <a href="../index.html">
+                <img src="../images/logoh.png" alt="">
+            </a>
+            <ul class="zuo-nav">
+                <li><a href="shouye.html">首页</a></li>
+                <li>
+                    <a href="mv.html">推荐</a>
+                </li>
+
+                <li><a href="#" class="shouye">人气highlight</a></li>
+
+                <li>
+                    <a href="fenlei.html">分类</a>
+                </li>
+                <li><a href="shang.html">商城</a></li>
+                <li><a href="flex.html" target="-blank">手机端</a></li>
+                <li>
+                    <a href="gengduo.html">更多</a>
+                </li>
+            </ul>
+            <ul class="you-nav">
+                <li>
+                    <a href="#"><img src="../images/huiyuan.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><span class="iconfont">&#xe6ad;</span></a>
+                </li>
+                <li>
+                    <a href="logind.html">登录</a>
+                </li>
+                <li>
+                    <a href="loginz.html">注册</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="center">
+        <div class="lisnav">
+            <div class="left">
+                <a href="#">热搜榜</a>
+                <a href="#">娱乐榜</a>
+                <a href="#">要闻榜</a>
+            </div>
+            <div class="right">
+                <a href="#">+加入晚昸平台</a>
+                <a href="#" class="hui">发布微评</a>
+            </div>
+        </div>
+        <h1>晚 昸 影 视 · 热 搜 </h1>
+        <p>晚昸影视实时明星热榜，每分钟更新一次，新鲜多元有料热门等你来参与！</p>
+
+    </div>
+    <div class="main">
+        <div class="xin">
+            <div class="kuai">
+                <ul>
+                    <li class="yi">
+                        <a href="#">视频类型
+                        <span class="iconfont">&#xe604;</span></a>
+                        <ul class="er">
+                            <li>全部</li>
+                            <li>电影</li>
+                            <li>电视剧</li>
+                            <li>综艺</li>
+                            <li>动画</li>
+                            <li>宣传片</li>
+                            <li>MV</li>
+                        </ul>
+                    </li>
+                    <li class="yi">
+                        <a href="#">视频 · 热
+                        <span class="iconfont">&#xe604;</span></a>
+                        <ul class="er er-xu">
+                            <li>扫黑</li>
+                            <li>我的姐姐</li>
+                            <li>九门</li>
+                            <li>阳光劫匪</li>
+                            <li>寻龙传说</li>
+                            <li>黄子皮坟</li>
+                            <li>半狼传说</li>
+                            <li>光辉历程</li>
+                        </ul>
+                    </li>
+                    <li class="yi">
+                        <a href="#">视频地区
+                        <span class="iconfont">&#xe604;</span></a>
+                        <ul class="er er-xu">
+                            <li>内地</li>
+                            <li>港澳</li>
+                            <li>美剧</li>
+                            <li>韩剧</li>
+                            <li>日剧</li>
+                            <li>泰剧</li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+            </div>
+            <p>根据热映类型，为你推荐的明星</p>
+            <div class="ma-lis">
+                <ul class="a">
+                    <li>
+                        <div class="l">
+                            <div class="tou">
+                                <img src="../images/tou1.jpg" alt="">
+                                <span>关注</span>
+                            </div>
+                            <div class="n">
+                                <h3>易烊千玺</h3>
+                                <span>播放 </span>5788977 <span> | </span> <span>喜欢</span> 872564
+                                <br />
+                                <span class="he">易烊千玺，中国内地男演员、歌手、舞者，演唱组合TFBOYS成员。</span>
+                            </div>
+                        </div>
+                        <div class="r">
+                            <a href="#"><img src="../images/pin11.jpg" alt=""></a>
+                            <a href="#"><img src="../images/pin12.jpg" alt=""></a>
+                            <a href="#"><img src="../images/pin13.jpg" alt=""></a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="l">
+                            <div class="tou">
+                                <img src="../images/tou2.jpg" alt="">
+                                <span>关注</span>
+                            </div>
+                            <div class="n">
+                                <h3>杨幂</h3>
+                                <span>播放 </span>1253566 <span> | </span> <span>喜欢</span> 647528
+                                <br />
+                                <span class="he">杨幂，中国内地影视女演员、流行乐歌手、影视制片人。</span>
+                            </div>
+                        </div>
+                        <div class="r">
+                            <a href="#"><img src="../images/pin21.jpg" alt=""></a>
+                            <a href="#"><img src="../images/pin22.jpg" alt=""></a>
+                            <a href="#"><img src="../images/pin23.jpg" alt=""></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="l">
+                            <div class="tou">
+                                <img src="../images/tou3.jpg" alt="">
+                                <span>关注</span>
+                            </div>
+                            <div class="n">
+                                <h3>周杰伦</h3>
+                                <span>播放 </span>1162544 <span> | </span> <span>喜欢</span> 356874
+                                <br />
+                                <span class="he">周杰伦（Jay Chou），中国台湾流行乐男歌手、音乐人、演员、导演、编剧、监制、商人</span>
+                            </div>
+                        </div>
+                        <div class="r">
+                            <a href="#"><img src="../images/pin31.jpg" alt=""></a>
+                            <a href="#"><img src="../images/pin32.jpg" alt=""></a>
+                            <a href="#"><img src="../images/pin33.jpg" alt=""></a>
+                        </div>
+                    </li>
+
+
+
+                </ul>
+            </div>
+            <div class="jing">
+                <p>专栏推荐</p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="../images/jing1.jpg" alt="">
+                            <img src="../images/item.png" alt="" class="shang">
+                            <p>张婧仪：对自己来说哭戏很难演</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../images/jing2.jpg" alt="">
+                            <img src="../images/item.png" alt="" class="shang">
+                            <p>许光汉：最好的“演技”是投入</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../images/jing3.jpg" alt="">
+                            <img src="../images/item.png" alt="" class="shang">
+                            <p>张颂文：“我要成为演员里的0.1%”</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../images/jing4.jpg" alt="">
+                            <img src="../images/item.png" alt="" class="shang">
+                            <p>于和伟：两次合作张艺谋是人生“高光”</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../images/jing5.jpg" alt="">
+                            <img src="../images/item.png" alt="" class="shang">
+                            <p>郭富城：《秘密访客》被角色吸引</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="bottom">
+        <div class="bottom-n">
+            <div class="b-left">
+                <div class="b-logo">
+                    <img src="../images/r-logo.png" alt="">
+                </div>
+                <p>
+                    晚昸影视致力于打造在线视频媒体平台，以丰富的内容、极致的观看体验、便捷的登录方式、24小时多平台无缝应用体验以及快捷分享的产品特性，主要满足用户在线观看视频的需求。
+                </p>
+
+                <div class="b-zuopin"></div>
+                <b class="jieshu"></b>
+            </div>
+            <div class="b-right">
+                <table>
+                    <tr>
+                        <th>关于</th>
+                        <th>服务</th>
+                        <th>热门频道</th>
+                    </tr>
+                    <tr>
+                        <td>关于我们</td>
+                        <td>客服</td>
+                        <td>电视剧</td>
+                    </tr>
+                    <tr>
+                        <td>使用帮助</td>
+                        <td>反馈</td>
+                        <td>综艺</td>
+                    </tr>
+                    <tr>
+                        <td>加入我们</td>
+                        <td>侵权投诉</td>
+                        <td>电影</td>
+                    </tr>
+                    <tr>
+                        <td>联系我们</td>
+                        <td>广告合作</td>
+                        <td>娱乐</td>
+                    </tr>
+                    <tr>
+                        <td>用户协议</td>
+                        <td> </td>
+                        <td>纪录片</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
